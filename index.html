@@ -5,6 +5,76 @@
         body {
             font-family: Arial, sans-serif;
         }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: #333;
+            margin-right: 15px;
+        }
+        .home-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: calc(100vh - 60px);
+        }
+        .home-content .profile-pic {
+            margin-right: 30px;
+        }
+        .home-content .intro {
+            max-width: 500px;
+        }
+        .home-content .intro h1 {
+            margin-bottom: 20px;
+        }
+        .home-content .intro .hire-me {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .resume {
+            padding: 20px;
+        }
+        .contact {
+            padding: 20px;
+        }
+        .projects {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h1>Alborz Olya</h1>
+        <div>
+            <a href="#home">Home</a>
+            <a href="#resume">Resume</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+    <div id="home" class="home-content">
+        <img class="profile-pic" src="pfp.jpg" alt="Profile Picture" />
+        <div class="intro">
+            <h1>Hi, I'm Alborz Olya</h1>
+            <a class="hire-me" href="#contact">Hire Me</a>
+        </div>
+    </div>
+    <div id="resume" class="resume">
+        <!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
         .section {
             margin-bottom: 20px;
         }
@@ -50,7 +120,7 @@
     </div>
     <div class="section">
         <h2>School Projects</h2>
-        <p><span class="bold">CryptoBros, Summer 2022</span></p>
+        <p><span class="bold">CryptoBums, Summer 2022</span></p>
         <ul>
             <li>Led a school project leveraging NFTs and Art royalties to raise funds for charitable causes, successfully raising $3500.</li>
             <li>Gained hands-on experience with Blockchain Technology, enhancing understanding of its applications and potential.</li>
@@ -86,6 +156,17 @@
             <li><strong>Culinary Skills:</strong> Competent home cook with proficiency in various styles of cooking, capable of creating nutritious and flavorful dishes that cater to a range of tastes and dietary needs.</li>
             <li><strong>Teamwork:</strong> Proven ability to work effectively in a team environment, contributing positively to team operations and working relationships.</li>
         </ul>
+    </div>
+</body>
+</html>
+
+    </div>
+    <div id="projects" class="projects">
+        <!-- Insert your projects HTML here -->
+    </div>
+    <div id="contact" class="contact">
+        <p>Phone: 832-202-9598</p>
+        <p>Email: alborzolya@icloud.com</p>
     </div>
 </body>
 </html>

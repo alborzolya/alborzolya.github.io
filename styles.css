@@ -49,3 +49,23 @@ body {
 .navbar a:last-child {
     margin-right: 0;
 }
+
+
+.projects {
+    padding: 20px;
+}
+.project {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.project-description {
+    flex: 1;
+}
+.project-image {
+    flex: 1;
+}
+.project-image img {
+    max-width: 100%;
+    height: auto;
+}

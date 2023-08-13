@@ -4,28 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ascend AI</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <style>
-        /* Inline CSS for simplicity, but consider moving these to styles.css */
-
         body {
-            font-family: Arial, sans-serif; 
-            text-align: center; 
-            padding: 50px 0;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 100px 0;
             background-color: #000;
-            color: #FFF; /* Since the background is black, text is set to white for visibility */
+            color: #FFF;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
 
-        img#logo {
-            width: 200px; /* Adjust as needed */
-            margin: 0 auto;
+        h1 {
+            font-size: 3em;
+            margin-bottom: 50px;
         }
 
         button {
-            background-color: #333;
+            background-color: transparent;
             color: #FFF;
-            padding: 10px 20px;
-            margin: 10px 0;
+            font-size: 1.2em;
+            padding: 10px 30px;
+            margin: 10px;
             cursor: pointer;
             border: none;
             outline: none;
@@ -33,17 +36,16 @@
         }
 
         button:hover {
-            background-color: #555;
+            background-color: #333;
         }
+
     </style>
 </head>
 <body>
 
-    <img id="logo" src="images/logo.png" alt="Ascend.AI Logo">
-
-    <button onclick="location.href='contact.html';">Contact</button>
-    <br>
+    <h1>Ascend.AI</h1>
     <button onclick="location.href='testimonials.html';">Testimonials</button>
+    <button onclick="location.href='contact.html';">Contact</button>
 
 </body>
 </html>
